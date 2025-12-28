@@ -52,10 +52,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Home | Cyborg Network</title>
+        <title>Home</title>
         <meta
           name="description"
-          content="Cyborg Network - The Next Gen AI Infra"
+          content="A developer-first AI Inference platform with radically lower compute costs."
         />
       </Head>
 

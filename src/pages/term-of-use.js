@@ -4,10 +4,10 @@ export default function TermOfUse() {
   return (
     <>
       <Head>
-        <title>Term Of Use | Cyborg Network</title>
+        <title>Term Of Use</title>
         <meta
           name="description"
-          content="Cyborg Network - The Next Gen AI Infra"
+          content="A developer-first AI Inference platform with radically lower compute costs."
         />
       </Head>
       <section className="common-section legal-hero-section">
