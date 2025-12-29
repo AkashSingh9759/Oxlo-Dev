@@ -181,7 +181,7 @@ export default function Pricing() {
                   size="btn-md"
                 />
                 <p className="payment-info">
-                  No charges until day 46. Cancel anytime
+                  No charges until day 31. Cancel anytime
                 </p>
                 <div className="limit-title">
                   Everything in Starter, plus
@@ -391,6 +391,7 @@ export default function Pricing() {
                 <tr className="heading-tr">
                   <th colSpan="5" className="table-heading">
                     Request & Context Limits
+                    <p>(Caps are for safety and performance, not billing)</p>
                   </th>
                 </tr>
                 <tr>
@@ -406,6 +407,41 @@ export default function Pricing() {
                   <td className="plan-col value">Up to 1k</td>
                   <td className="plan-col value">Up to 4k</td>
                   <td className="plan-col value">Custom</td>
+                </tr>
+
+                {/* Pricing & Billing */}
+                <tr className="heading-tr">
+                  <th colSpan="5" className="table-heading">
+                    Pricing & Billing
+                  </th>
+                </tr>
+                <tr>
+                  <td className="feature-name">Request-based pricing</td>
+                  <td className="plan-col value">Yes</td>
+                  <td className="plan-col value">Yes</td>
+                  <td className="plan-col value">Yes</td>
+                  <td className="plan-col value">Yes</td>
+                </tr>
+                <tr>
+                  <td className="feature-name">Token-based billing</td>
+                  <td className="plan-col value">No</td>
+                  <td className="plan-col value">No</td>
+                  <td className="plan-col value">No</td>
+                  <td className="plan-col value">No</td>
+                </tr>
+                <tr>
+                  <td className="feature-name">Fixed monthly limits</td>
+                  <td className="plan-col value">Yes</td>
+                  <td className="plan-col value">Yes</td>
+                  <td className="plan-col value">Yes</td>
+                  <td className="plan-col value">Custom</td>
+                </tr>
+                <tr>
+                  <td className="feature-name">Usage limits visible upfront</td>
+                  <td className="plan-col value">Yes</td>
+                  <td className="plan-col value">Yes</td>
+                  <td className="plan-col value">Yes</td>
+                  <td className="plan-col value">Yes</td>
                 </tr>
 
                 {/* Developer Experience */}
@@ -429,11 +465,53 @@ export default function Pricing() {
                   <td className="plan-col value">Yes</td>
                 </tr>
                 <tr>
+                  <td className="feature-name">Model-agnostic pricing</td>
+                  <td className="plan-col value">Yes</td>
+                  <td className="plan-col value">Yes</td>
+                  <td className="plan-col value">Yes</td>
+                  <td className="plan-col value">Yes</td>
+                </tr>
+                <tr>
                   <td className="feature-name">Support level</td>
                   <td className="plan-col value">Community</td>
                   <td className="plan-col value">Community</td>
                   <td className="plan-col value">Priority</td>
                   <td className="plan-col value">Dedicated</td>
+                </tr>
+
+                {/* Infrastructure & Technical Differentiation */}
+                <tr className="heading-tr">
+                  <th colSpan="5" className="table-heading">
+                    Infrastructure & Technical Differentiation
+                  </th>
+                </tr>
+                <tr>
+                  <td className="feature-name">Gateway-level request metering</td>
+                  <td className="plan-col value">Yes</td>
+                  <td className="plan-col value">Yes</td>
+                  <td className="plan-col value">Yes</td>
+                  <td className="plan-col value">Yes</td>
+                </tr>
+                <tr>
+                  <td className="feature-name">Pricing independent of prompt length</td>
+                  <td className="plan-col value">Yes</td>
+                  <td className="plan-col value">Yes</td>
+                  <td className="plan-col value">Yes</td>
+                  <td className="plan-col value">Yes</td>
+                </tr>
+                <tr>
+                  <td className="feature-name">Traffic prioritization by plan</td>
+                  <td className="plan-col value">No</td>
+                  <td className="plan-col value">Yes</td>
+                  <td className="plan-col value">Yes</td>
+                  <td className="plan-col value">Yes</td>
+                </tr>
+                <tr>
+                  <td className="feature-name">Async and batch-friendly workloads</td>
+                  <td className="plan-col value">Yes</td>
+                  <td className="plan-col value">Yes</td>
+                  <td className="plan-col value">Yes</td>
+                  <td className="plan-col value">Yes</td>
                 </tr>
               </tbody>
             </table>

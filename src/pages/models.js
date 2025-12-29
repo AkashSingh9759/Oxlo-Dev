@@ -339,7 +339,7 @@ const [searchQuery, setSearchQuery] = useState("")
                 <Search className="search-icon" size={20} />
                 <input
                   type="text"
-                  placeholder="Search model library"
+                  placeholder="Search model registry"
                   className="search-input"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}

@@ -29,12 +29,12 @@ const Footer = () => {
             <div className='fw-content fw-second'>
                 <div className='content-wrap'>
                 <ul className='fw-link'>
-                <li><Link href="/" className={`${router.asPath === "" ? "active" : ""}`}>OxAPI</Link></li>
-                <li><Link href="/" className={`${router.asPath === "" ? "active" : ""}`}>OxCompute <small>(Coming Soon)</small></Link></li>
-                <li><Link href="/" className={`${router.asPath === "/models" ? "active" : ""}`}>Models</Link></li>
-                <li><Link href="/" className={`${router.asPath === "/pricing" ? "active" : ""}`}>Pricing</Link></li>
-                <li><Link href="/" className={`${router.asPath === "" ? "active" : ""}`}>Contact Us</Link></li>
-                <li><Link href="/" className={`${router.asPath === "" ? "active" : ""}`}>Privacy Policy</Link></li>
+                <li><Link href="/" className={`${router.asPath === "" ? "" : ""}`}>OxAPI</Link></li>
+                <li><Link href="/" className={`${router.asPath === "" ? "" : ""}`}>OxCompute <small>(Coming Soon)</small></Link></li>
+                <li><Link href="/models" className={`${router.asPath === "/models" ? "" : ""}`}>Models</Link></li>
+                <li><Link href="/pricing" className={`${router.asPath === "/pricing" ? "" : ""}`}>Pricing</Link></li>
+                <li><Link href="mailto:hello@oxlo.ai" className={`${router.asPath === "" ? "" : ""}`}>Contact Us</Link></li>
+                <li><Link href="/privacy-policy" className={`${router.asPath === "/privacy-policy" ? "" : ""}`}>Privacy Policy</Link></li>
                 </ul>
                 </div>
             </div>

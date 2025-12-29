@@ -79,7 +79,7 @@ export default function Home() {
                   A developer-first AI Inference platform with radically lower compute costs.
                 </p>
                 <Button
-                  title="Get stareted for free"
+                  title="Get started for free"
                   link=""
                   size="btn-md"
                   icon={rocket}

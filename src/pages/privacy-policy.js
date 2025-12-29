@@ -13,11 +13,11 @@ export default function PrivacyPolicy() {
       <section className="common-section legal-hero-section">
         <div className="container">
           <h1 className="hero-heading center-hero-heading">Privacy Policy</h1>
-          <p className="hero-desc">Last Updated: October 1, 2025</p>
+          <p className="hero-desc">Last Updated: 29 12, 2025</p>
 
           <div className="legal-content">
             <p>
-              ResoluteX Technology Labs Ltd. (“<strong>ResoluteX</strong>”,
+              (“<strong>Oxlo.ai</strong>”,
               “<strong>we</strong>”, “<strong>our</strong>”, or “<strong>us</strong>”)
               respects your privacy and is committed to protecting your personal
               information. This Privacy Policy explains what information we
@@ -213,7 +213,7 @@ export default function PrivacyPolicy() {
             </p>
             <p>
               <strong>Email:</strong>{" "}
-              <a href="mailto:info@cyborgnetwork.io">info@cyborgnetwork.io</a>
+              <a href="mailto:hello@oxlo.ai">hello@oxlo.ai</a>
             </p>
 
             <h2>11. When We Provide This Notice</h2>

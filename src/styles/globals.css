@@ -858,15 +858,17 @@ button.btn{
 .legal-content{
   margin-top: 60px;
 }
-.legal-content p{
-  font-size: 18px;
-  line-height: 28px;
-  margin-bottom: 5px;
+.legal-content p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 5px;
 }
 .legal-content h2{
-  font-size: 22px;
-  margin-bottom: 5px;
+  color: var(--text-green-dark);
+  font-size: 16x;
+  margin-bottom: 15px;
   margin-top: 20px;
+  font-weight: var(--medium);
 }
 .legal-content ul{
   padding-left: 17px;
@@ -3623,7 +3625,13 @@ filter: blur(75px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   z-index: 90;
 }
-
+.table-heading p{
+  font-family: var(--Inter);
+  color: var(--text-light-75);
+  font-size: 14px;
+  font-weight: var(--regular);
+  margin-top: 3px;
+}
 .compare-table td {
   padding: 16px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
@@ -4756,10 +4764,10 @@ nav > ul{
   font-size: 20px;
 }
 .legal-content p {
-  font-size: 17px;
+  font-size: 15px;
 }
 .legal-content h2 {
-  font-size: 20px;
+  font-size: 14px;
 }
 .connect-app {
   position: unset;
