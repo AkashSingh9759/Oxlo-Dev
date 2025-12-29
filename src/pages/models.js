@@ -81,8 +81,16 @@ const MODELS_DATA = [
     trending: true,
   },
   {
+    id: "whisper-large",
+    title: "Whisper Large",
+    description: "High-accuracy transcription model for long audio and noisy environments.",
+    tags: ["Audio", "Speech to Text"],
+    logo: "/images/models/gpt.png",
+    trending: true,
+  },
+  {
     id: "whisper-large-v3",
-    title: "Whisper-Large / Large-v3",
+    title: "Whisper Large v3",
     description: "High-accuracy transcription model for long audio and noisy environments.",
     tags: ["Audio", "Speech to Text"],
     logo: "/images/models/gpt.png",

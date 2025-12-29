@@ -17,7 +17,7 @@
   --bg-overlay: #272c2c;
 
   --bg-btn: #03F7B5;
-  --bg-btn-hover: #4fffd0;
+  --bg-btn-hover: #d9fff5;
 
   
   --bg-btn-dark: #04050E;
@@ -340,7 +340,7 @@ button.btn{
 }
 .btn.light{
   color: var(--text-dark);
-  background: var(--text-light);
+  background: #d9fff5;
   min-width: 140px;
   display: inline-flex;
   align-items: center;
